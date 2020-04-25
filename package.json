@@ -1,0 +1,44 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint",
+    "start": "DEBUG=app,app:* nodemon app",
+    "mongoImport": "mongo booksAPI < bookJson.js",
+    "test": "mocha src/tests/**/*Tests.js"
+  },
+  "author": "Karl Jose Buena",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.19.0",
+    "debug": "4.1.1",
+    "express": "4.17.1",
+    "mongoose": "5.9.10",
+    "morgan": "1.10.0",
+    "should": "13.2.3",
+    "sinon": "9.0.2",
+    "supertest": "4.0.2"
+  },
+  "devDependencies": {
+    "eslint": "6.8.0",
+    "eslint-config-airbnb-base": "14.1.0",
+    "eslint-plugin-import": "2.20.2",
+    "mocha": "7.1.1",
+    "nodemon": "2.0.3"
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "test/*",
+      "docs/*",
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
+  }
+}
