@@ -1,2 +1,4 @@
 # RESTful-Web-Services-with-Node.js-and-Express
 Node.js is a simple and powerful tool for backend development. When combined with Express, you can create lightweight, fast, scalable APIs quickly and simply. With REST, those APIs become simple and user-friendly to make your APIs more usable.
+
+At the core of Node.js application development is a thorough knowledge of RESTful APIs. In this course, RESTful Web Services with Node.js and Express, you will learn how to create lightweight, fast, scalable APIs quickly and simply. First, you will discover what REST APIs are and how to implement the REST verbs. Next, you will explore how to build unit tests for your application. Finally, you will learn how to expose API navigation through hypermedia. When you are finished with this course, you will understand how to build real backend REST APIs with Node.js that will help you as you move forward to build web applications. Software required: Node.js; MongoDB
